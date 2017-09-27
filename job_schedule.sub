@@ -15,4 +15,4 @@ export PATH=":$PATH:/usr/local/cuda-8.0/bin:/home/jrafatiheravi/.conda/envs/jaco
 
 module load anaconda3
 source activate jacobenv
-python cifar_tf_multi_gpu.py
+python cifar_tf_multi_gpu.py --num_gpus=2
